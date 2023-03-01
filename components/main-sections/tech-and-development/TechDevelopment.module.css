@@ -1,0 +1,7 @@
+.sectionBackground {
+  background-image: url("/images/body-sec-1/tech-dev-bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
