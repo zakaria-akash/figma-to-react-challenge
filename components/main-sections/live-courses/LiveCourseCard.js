@@ -18,7 +18,7 @@ const LiveCourseCard = () => {
             height={200}
           />
           <span
-            class="badge bg-transparent bg-gradient text-light col-sm-3 py-2  mt-2"
+            className="badge bg-transparent bg-gradient text-light col-sm-3 py-2  mt-2"
             style={{
               fontSize: "0.8rem",
               fontWeight: "lighter",
@@ -28,7 +28,7 @@ const LiveCourseCard = () => {
           </span>
 
           <span
-            class="badge bg-secondary bg-gradient text-light col-sm-3 py-3 my-2"
+            className="badge bg-secondary bg-gradient text-light col-sm-3 py-3 my-2"
             style={{
               fontSize: "0.6rem",
               height: "2.5rem",
@@ -36,21 +36,24 @@ const LiveCourseCard = () => {
             }}
           >
             <i
-              class="bi bi-people-fill me-1 mb-2"
+              className="bi bi-people-fill me-1 mb-2"
               style={{ fontSize: "0.8rem" }}
             ></i>
             ২০ টি সিট বাকি
           </span>
 
           <span
-            class="badge bg-secondary bg-gradient text-light col-sm-3 py-3"
+            className="badge bg-secondary bg-gradient text-light col-sm-3 py-3"
             style={{
               fontSize: "0.65rem",
               height: "2.5rem",
               fontWeight: "lighter",
             }}
           >
-            <i class="bi bi-stopwatch  mb-2" style={{ fontSize: "0.9rem" }}></i>
+            <i
+              className="bi bi-stopwatch  mb-2"
+              style={{ fontSize: "0.9rem" }}
+            ></i>
             <span className="ms-1">৫ দিন বাকি</span>
           </span>
         </div>
@@ -73,7 +76,7 @@ const LiveCourseCard = () => {
                 style={{ fontSize: "0.7rem", fontWeight: "lighter" }}
               >
                 বিস্তারিত দেখি
-                <i class="bi bi-arrow-right ms-2 fs-6"></i>
+                <i className="bi bi-arrow-right ms-2 fs-6"></i>
               </button>
             </div>
           </div>

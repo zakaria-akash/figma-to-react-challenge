@@ -37,11 +37,11 @@ const TechDevelopment = () => {
                   সাথে, ক্লিক করুন নিচের বাটনে। ৭টি লাইভ কোর্স
                 </p>
                 <div className="col-sm-12  pt-2 pb-2 fw-bolder">
-                  <span class="badge bg-light bg-gradient text-dark m-3">
-                    <i class="bi bi-archive pe-2 fs-5"></i>৭টি লাইভ কোর্স
+                  <span className="badge bg-light bg-gradient text-dark m-3">
+                    <i className="bi bi-archive pe-2 fs-5"></i>৭টি লাইভ কোর্স
                   </span>
-                  <span class="badge bg-light bg-gradient text-dark m-3">
-                    <i class="bi bi-people-fill ps-2 pe-2 fs-5"></i>১৪২৪৫ জন
+                  <span className="badge bg-light bg-gradient text-dark m-3">
+                    <i className="bi bi-people-fill ps-2 pe-2 fs-5"></i>১৪২৪৫ জন
                     Ostad গ্র্যাজুয়েট
                   </span>
                 </div>
@@ -58,7 +58,7 @@ const TechDevelopment = () => {
                     type="button"
                     className="buttonLearning btn btn-warning rounded-top rounded-bottom rounded-start rounded-start my-3 me-0 fs-5"
                   >
-                    START LEARNING<i class="bi bi-arrow-right ms-2"></i>
+                    START LEARNING<i className="bi bi-arrow-right ms-2"></i>
                   </button>
                 </div>
               </div>

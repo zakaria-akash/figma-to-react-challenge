@@ -3,10 +3,8 @@
 import React, { Fragment, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-// import { Modal } from "antd";
 
 const MainHeader = () => {
-  const [cartModalStatus, setCartModalStatus] = useState(false);
   return (
     <Fragment>
       <nav
@@ -127,36 +125,10 @@ const MainHeader = () => {
                   </button>
                 </li>
               </ul>
-
-              {/* <div className="d-flex justify-content-end">
-              <button
-                type="button"
-                className="btn btn-outline-success btn-lg text-bold ms-2 border-0"
-                onClick={() => {
-                  setCartModalStatus(true);
-                }}
-              >
-                <ShoppingCartOutlined style={{ fontSize: "2.5rem" }} />
-              </button>
-            </div> */}
             </div>
           </div>
         </div>
       </nav>
-      {/* start cart modal */}
-      {/* <Modal
-        open={cartModalStatus}
-        onOk={() => {
-          setCartModalStatus(false);
-        }}
-        onCancel={() => {
-          setCartModalStatus(false);
-        }}
-        centered
-      >
-        <ProductCart />
-      </Modal> */}
-      {/* end cart modal */}
     </Fragment>
   );
 };

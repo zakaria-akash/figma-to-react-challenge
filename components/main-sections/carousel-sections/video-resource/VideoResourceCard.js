@@ -32,7 +32,7 @@ const VideoResourceCard = () => {
               style={{ fontSize: "0.8rem", fontWeight: "bold" }}
             >
               <i
-                class="bi bi-stopwatch me-1"
+                className="bi bi-stopwatch me-1"
                 style={{ fontSize: "1.5rem" }}
               ></i>
               <span className="ms-1">60 min</span>
@@ -43,7 +43,7 @@ const VideoResourceCard = () => {
               style={{ fontSize: "0.8rem", fontWeight: "bold" }}
             >
               <i
-                class="bi bi-calendar2-event me-1"
+                className="bi bi-calendar2-event me-1"
                 style={{ fontSize: "1.5rem" }}
               ></i>
               <span className="ms-1">30 March, 2022</span>
