@@ -12,7 +12,7 @@ const ExprtCrGuideCard = () => {
         style={{ borderRadius: "2%" }}
       />
       <div className="card-body text-light">
-        <h5 className="card-title fs-6">
+        <h5 className="card-title fs-6 border-bottom border-1 border-secondary pb-2">
           <i class="bi bi-play-circle mx-2 mb-2 fs-4"></i>ক্যারিয়ার করুন ওয়েব
           ডিজাইনে
         </h5>

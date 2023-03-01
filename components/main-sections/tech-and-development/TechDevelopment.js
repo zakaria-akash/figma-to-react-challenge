@@ -5,8 +5,10 @@ import styleClasses from "./TechDevelopment.module.css";
 
 const TechDevelopment = () => {
   return (
-    <div className={styleClasses.sectionBackground}>
-      <div className="container-fluid bg-transparent">
+    <div className="section-holder-div">
+      <div
+        className={`container-fluid bg-transparent ${styleClasses.sectionBackground}`}
+      >
         <div className="row d-flex justify-content-start align-items-center">
           <div className="col-sm-12 col-md-2">
             <div className="container-fluid bg-transparent">

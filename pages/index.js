@@ -8,6 +8,8 @@ import TechDevelopment from "@/components/main-sections/tech-and-development/Tec
 import ExprtCrGuide from "@/components/main-sections/carousel-sections/expert-career-guideline/ExprtCrGuide";
 import LiveCoursesList from "@/components/main-sections/live-courses/LiveCoursesList";
 import WorkshopsList from "@/components/main-sections/workshop/Workshop";
+import VideoResource from "@/components/main-sections/carousel-sections/video-resource/VideoResource";
+import MainHeader from "@/components/layout/MainHeader";
 
 const Homepage = () => {
   const IterationsVar = [
@@ -30,33 +32,38 @@ const Homepage = () => {
   return (
     <Fragment>
       {headTagForThisPage}
-      <TechDevelopment />
-      <ExprtCrGuide IterationsVar={IterationsVar} />
-      <div className="container-fluid bg-transparent ">
-        <div className="row d-flex justify-content-start align-items-center">
-          <div className="section-title fw-bolder fs-3 col-sm-12 py-3">
-            <span
-              className="book-open-icon"
-              style={{ marginLeft: "7rem", marginRight: "1rem" }}
-            >
-              <Image
-                src="/images/body-sec-1/flag-icon.png"
-                width={50}
-                height={50}
-                alt="book-open-icon"
-              />
-            </span>
-            Ostad helps you in your career with
-          </div>
-          <div className="col-sm-12 col-md-1"></div>
-          <div className="fw-lighter fs-6 col-sm-12 col-md-8 text-dark">
-            স্কিল ডেভেলপ করুন দেশের সেরা ইন্সট্রাক্টরদের সাথে, ক্লিক করুন নিচের
-            বাটনে।
+      <div className="all-sections-holder">
+        <TechDevelopment />
+        <ExprtCrGuide IterationsVar={IterationsVar} />
+        <div className="section-holder-div">
+          <div className="container-fluid bg-transparent ">
+            <div className="row d-flex justify-content-start align-items-center">
+              <div className="section-title fw-bolder fs-3 col-sm-12 py-3">
+                <span
+                  className="book-open-icon"
+                  style={{ marginLeft: "7rem", marginRight: "1rem" }}
+                >
+                  <Image
+                    src="/images/body-sec-1/flag-icon.png"
+                    width={50}
+                    height={50}
+                    alt="book-open-icon"
+                  />
+                </span>
+                Ostad helps you in your career with
+              </div>
+              <div className="col-sm-12 col-md-1"></div>
+              <div className="fw-lighter fs-6 col-sm-12 col-md-8 text-dark">
+                স্কিল ডেভেলপ করুন দেশের সেরা ইন্সট্রাক্টরদের সাথে, ক্লিক করুন
+                নিচের বাটনে।
+              </div>
+            </div>
           </div>
         </div>
+        <LiveCoursesList IterationsVar={IterationsVar} />
+        <WorkshopsList IterationsVar={IterationsVar} />
+        <VideoResource IterationsVar={IterationsVar} />
       </div>
-      <LiveCoursesList IterationsVar={IterationsVar} />
-      <WorkshopsList IterationsVar={IterationsVar} />
     </Fragment>
   );
 };

@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <Fragment>
       <MainHeader></MainHeader>
       <Component {...pageProps} />
-      {/* <MainFooter></MainFooter> */}
+      <MainFooter></MainFooter>
     </Fragment>
   );
 }

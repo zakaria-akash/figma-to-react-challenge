@@ -5,7 +5,7 @@ import LiveCourseCard from "../live-courses/LiveCourseCard";
 
 const WorkshopsList = (props) => {
   return (
-    <div>
+    <div className="section-holder-div">
       <div className="container bg-light mt-2">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="section-title col-sm-12 py-3">

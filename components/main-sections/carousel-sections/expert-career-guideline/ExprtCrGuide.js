@@ -1,15 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import { Carousel, Card, Stack, Button } from "react-bootstrap";
+import { Carousel, Stack } from "react-bootstrap";
 
 import ExprtCrGuideCard from "./ExprtCrGuideCard";
 
 const ExprtCrGuide = (props) => {
   return (
-    <div
-      className="carousel1 py-5 mx-auto"
-      style={{ width: "100%", height: "100%" }}
-    >
+    <div className="carousel1 py-5 mx-auto section-holder-div">
       <div className="container-fluid bg-transparent ">
         <div className="row">
           <div className="section-title col-sm-12 d-flex justify-content-start align-items-center py-3 ms-5">
